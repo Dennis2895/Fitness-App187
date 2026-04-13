@@ -30,9 +30,8 @@ const PLAN = {
       { name: "Schulterdrücken", reps: "3 x 6–10" },
       { name: "Klimmzüge / Latziehen", reps: "4 x 8–12" },
       { name: "Rudern (Kabel/Maschine)", reps: "3 x 8–12" },
-      { name: "Hip Thrust", reps: "3 x 8–12" },
+      { name: "Cardio", reps: "max 10.min" },
       { name: "Seitheben", reps: "3 x 12–15" },
-      { name: "Bizeps Curls", reps: "2–3 x 10–12" },
       { name: "Trizeps Pushdown", reps: "2–3 x 10–12" },
       { name: "Hanging Leg Raises", reps: "3 x 10–15" },
       { name: "Cable Crunch", reps: "3 x 12–15" }
@@ -43,9 +42,9 @@ const PLAN = {
     studioDays: ["Dienstag", "Donnerstag", "Samstag"],
     exercises: [
       { name: "Beinpresse / Lunges", reps: "3 x 8–12" },
-      { name: "Ausfallschritte (Lunges)", reps: "3 x 10 je Bein" },
+      { name: "Cardio", reps: "max 10.min" },
       { name: "Beinbeuger Maschine", reps: "3 x 10–15" },
-      { name: "Latziehen (eng/neutral)", reps: "3 x 10–12" },
+      { name: "Latziehen (eng)", reps: "3 x 10–12" },
       { name: "Rudern (andere Variante)", reps: "3 x 10–12" },
       { name: "Schrägbankdrücken (Kurzhantel)", reps: "3 x 8–12" },
       { name: "Seitheben", reps: "3 x 12–15" },
@@ -53,7 +52,6 @@ const PLAN = {
       { name: "Cable Pull Throughs", reps: "3 x 12–15" },
       { name: "Bizeps Curls", reps: "2–3 x 10–12" },
       { name: "Trizeps Pushdown", reps: "2–3 x 10–12" },
-      { name: "Cable Woodchopper", reps: "3 x 10–15 je Seite" },
     ]
   }
 };
