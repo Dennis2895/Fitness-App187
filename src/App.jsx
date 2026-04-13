@@ -25,15 +25,17 @@ const PLAN = {
     name: "Workout A",
     studioDays: ["Montag", "Mittwoch", "Freitag"],
     exercises: [
-      { name: "Beinpresse / Kniebeugen", reps: "3 x 8–12" },
-      { name: "Beinbeuger", reps: "3 x 10–15" },
-      { name: "Latziehen / Klimmzüge", reps: "3 x 8–12" },
-      { name: "Rudern", reps: "3 x 8–12" },
-      { name: "Bankdrücken", reps: "3 x 8–12" },
+      { name: "Kniebeugen / Beinpresse", reps: "4 x 5–8" },
+      { name: "Bankdrücken", reps: "4 x 5–8" },
+      { name: "Schulterdrücken", reps: "3 x 6–10" },
+      { name: "Klimmzüge / Latziehen", reps: "4 x 8–12" },
+      { name: "Rudern (Kabel/Maschine)", reps: "3 x 8–12" },
+      { name: "Hip Thrust", reps: "3 x 8–12" },
       { name: "Seitheben", reps: "3 x 12–15" },
       { name: "Bizeps Curls", reps: "2–3 x 10–12" },
       { name: "Trizeps Pushdown", reps: "2–3 x 10–12" },
-      { name: "Plank", reps: "3 x 30–60s" }
+      { name: "Hanging Leg Raises", reps: "3 x 10–15" },
+      { name: "Cable Crunch", reps: "3 x 12–15" }
     ]
   },
   B: {
@@ -41,14 +43,17 @@ const PLAN = {
     studioDays: ["Dienstag", "Donnerstag", "Samstag"],
     exercises: [
       { name: "Beinpresse / Lunges", reps: "3 x 8–12" },
-      { name: "Beinstrecker", reps: "3 x 10–15" },
-      { name: "Rudern", reps: "3 x 8–12" },
+      { name: "Ausfallschritte (Lunges)", reps: "3 x 10 je Bein" },
+      { name: "Beinbeuger Maschine", reps: "3 x 10–15" },
+      { name: "Latziehen (eng/neutral)", reps: "3 x 10–12" },
+      { name: "Rudern (andere Variante)", reps: "3 x 10–12" },
+      { name: "Schrägbankdrücken (Kurzhantel)", reps: "3 x 8–12" },
+      { name: "Seitheben", reps: "3 x 12–15" },
       { name: "Face Pulls", reps: "3 x 12–15" },
-      { name: "Schrägbankdrücken", reps: "3 x 8–12" },
-      { name: "Schulterdrücken", reps: "3 x 8–12" },
-      { name: "Hammer Curls", reps: "2–3 x 10–12" },
-      { name: "Trizeps Overhead", reps: "2–3 x 10–12" },
-      { name: "Crunches / Beinheben", reps: "3 x 12–15" }
+      { name: "Cable Pull Throughs", reps: "3 x 12–15" },
+      { name: "Bizeps Curls", reps: "2–3 x 10–12" },
+      { name: "Trizeps Pushdown", reps: "2–3 x 10–12" },
+      { name: "Cable Woodchopper", reps: "3 x 10–15 je Seite" },
     ]
   }
 };
